@@ -15,3 +15,7 @@ if result==-1:
     print(f'{target} is not found in the array')
 else:
     print(f'{target} is found at index:{result} in the array')
+    
+    
+# Time complexity  -  O(n)
+# Space complexity  -  O(1)
