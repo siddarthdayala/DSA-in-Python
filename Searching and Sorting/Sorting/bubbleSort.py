@@ -10,4 +10,4 @@ array = [9,7,6,5,4,3]
 print(bubbleSort(array))
 
 # Time complexity  -  O(n^2)
-#Space complexity  -  O(1)
+# Space complexity  -  O(1)
