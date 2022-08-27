@@ -27,7 +27,10 @@ def mergeSort(listt):
         return listt
     mid = len(listt)//2
     return merge(mergeSort(listt[:mid]), mergeSort(listt[mid:]))
+
+
+print(mergeSort([9,1,7,6,5,4,1,1]))
     
     
-Time Complexity - O(nlogn)
-Space Complexity - O(n)
+# Time Complexity - O(nlogn)
+# Space Complexity - O(n)
